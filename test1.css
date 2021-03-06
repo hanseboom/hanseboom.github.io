@@ -1,0 +1,107 @@
+.header{
+  padding: 20px;
+  text-align: center;
+  color: #86C232;
+}
+
+/* nav bar */
+ul.navbar1{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #61892F;
+
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+}
+
+
+li {
+	float: left;		/* para naka single horizontal line yung nav bar*/
+}
+
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+					
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+/* */
+.ako{
+  border-radius: 50%;
+
+}
+
+
+/* */
+body{
+  margin-top: 50px;
+  margin-bottom: : 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: #222629;
+
+  text-align: center;
+}
+
+
+
+.name{
+  color: white;
+}
+
+
+/* Questions group */
+.ques1{
+
+  display: grid;
+  height: 300px;
+  grid-gap: 20px;                                                 /*space in between*/
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.ques2{
+  display: grid;
+
+  padding: 20px;
+  place-items: center;
+  background: #474B4F;
+
+  color: white;
+}
+
+/*same code diff name*/
+.ques3{
+
+  display: grid;
+  height: 300px;
+  grid-gap: 20px;                                                 /*space in between*/
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  margin-left: 292px;
+  margin-right: 292px;
+}
+
+.ques4{
+  display: grid;
+
+  padding: 20px;
+  place-items: center;
+  background: #474B4F;
+
+  color: white;
+}
